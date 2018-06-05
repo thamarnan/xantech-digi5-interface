@@ -32,6 +32,8 @@ The unit has 4 source and 4 zone.
 You can have each zone for eg. living room, kitchen, bedroom, bathroom.
 and source from eg {Apple TV, Bluetooth Reciever, Computer, etc}
 
+`Dim $SourceName[$nSource+1] = ["AirPlay","BT","PC","Theater","Local"]`
+
 Here are directory tree for customized the thumbnail for each room
 
 ```bash
