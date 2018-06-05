@@ -1,8 +1,7 @@
 # XANTECH D5RH DIGI-5 Windows Interface 
 Windows Interface to control Xantech Digi 5 system through RS-232.
 
-
-This device has been discontinued. but for anyone who wants to integrated to the modern technology can base off this sandbox application and adjust it to your need.
+I made this one many years back and this device has been already discontinued. but for anyone who wants to integrated their existed device to the modern technology, you can base off this sandbox application and adjust it to your need. 
 
 
 [![](https://github.com/thamarnan/xantech-digi5-interface/blob/master/images/xantech_keypad_both.jpg?raw=true)](https://github.com/thamarnan/xantech-digi5-interface/blob/master/images/xantech_keypad_both.jpg?raw=true)
@@ -28,9 +27,11 @@ I've only upload the source code for the application. No exe file.
 You'll need to download the autoit then compile them.
 
 # Customization
-The unit has 4 source and 4 zone.
-You can have each zone for eg. living room, kitchen, bedroom, bathroom.
-and source from eg {Apple TV, Bluetooth Reciever, Computer, etc}
+The unit has 4 source and 4 zone.  
+
+You can customized image of each zone eg. living room, kitchen, bedroom, bathroom.
+
+and also label each source eg { AirPlay, Bluetooth Reciever, Computer, etc}
 
 `Dim $SourceName[$nSource+1] = ["AirPlay","BT","PC","Theater","Local"]`
 
